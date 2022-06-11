@@ -1,0 +1,339 @@
+/* LAYOUT *************************************************************************************************************/
+
+
+@font-face {
+    font-family: CCGeekSpeak;
+    src: url(//db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeakW00-Regular);
+}
+@font-face {font-family: "CCGeekSpeak W00 Regular";
+    src: url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.eot");
+    src: url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.eot?#iefix") format("embedded-opentype"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.woff2") format("woff2"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.woff") format("woff"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.ttf") format("truetype"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.svg#CCGeekSpeak W00 Regular") format("svg");
+}
+html, input{
+    color: #333;
+    font-family:"CCGeekSpeak W00 Regular" !important;
+    text-transform: uppercase;
+    font-family: "CCGeekSpeak", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 26px;
+    letter-spacing: 0.43px;
+    text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.left{
+    margin-left: 300px;
+}
+nav{
+    background: linear-gradient(to bottom,#024488,#08244c);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 0 1rem;
+    float: left;
+    height: 100px;
+}
+.navderecha{
+
+}
+a.jugar, a.acceder{
+    float: right;
+    padding-top: 20px;
+    margin-right: 50px;
+    font-size: 1.15rem;
+    background-image: url(http://35.181.8.108/2Eva/proyecto_final_dam-daw/public/img/btAceder.png);
+    background-size: contain;
+    width: 215px;
+    background-repeat: no-repeat;
+    background-position-y: 25px;
+    text-align: center;
+}
+a.acceder{
+    filter: hue-rotate(275deg)
+}
+span.run{
+    margin-left: -175px;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 1.75rem;
+}
+
+nav ul a {
+    font-size: 1.25rem;
+}
+
+ul {
+    padding-top: 1rem;
+}
+.logo img{
+    width: 280px;
+    height: 140px;
+}
+img.logotxt{
+    position: absolute;
+    left: 25px;
+    width: 220px;
+    height: 90px;
+    top: 10px;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+footer{
+    background: linear-gradient(to bottom,#034588,#092043);
+    color: white;
+}
+
+svg{
+    width: 100%;
+    height: 50px;
+}
+footer a{
+    color: white;
+}
+
+footer .contenido{
+    margin: 0 360px;
+}
+
+footer img{
+    width: 155px;
+}
+footer p {
+    text-transform: none;
+    font-family: Arial;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* SECTION ************************************************************************************************************/
+
+section h3{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.3rem;
+    font-weight:bold;
+}
+
+section h3 a{
+    color: #333;
+}
+
+section h3 span{
+    font-weight:normal;
+    color: #444;
+}
+
+.btn{
+    background-color: #777;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
+article h4{
+    font-size: 1.5rem;
+}
+
+article .card-info{
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+}
+
+.card.horizontal.small .card-image{
+    max-height: 70%;
+}
+
+.card.horizontal.small .card-image img{
+    margin-top: 20%;
+}
+
+.card.horizontal.noticia{
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.card.horizontal.admin h4{
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+.card.horizontal.admin strong{
+    margin-left: 0.5rem;
+}
+
+.card.horizontal.admin img{
+    height: 3rem;
+    margin: 1.5rem 0 0 2rem;
+}
+
+
+.toast{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.toast strong{
+    padding: 0 0.2rem;
+}
+
+form p{
+    padding-left: 0.8rem;
+}
+
+/* INICIO SESION*/
+
+main.iniciosesion{
+    background-image: url(http://3.143.248.187/proyecto_final_dam-daw/public/img/fondo_iniciarSe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -40px;
+    background-attachment: fixed;
+}
+
+.cajita,.cajita2{
+    width: 35%;
+    background-color: #0000007a;
+    text-align: center;
+    border-radius: 15px;
+}
+.cajita h2,.cajita2 h2{
+    font-size: 3rem;
+}
+.cajita2{
+
+    margin-top: 75px;
+}
+.cajita{
+
+    margin-top: 130px;
+}
+.row .col.s12 {
+    width: 85%;
+    left: 50px;
+    right: auto;
+    padding: 0 96px;
+}
+.input-field.col label {
+    left: 4.75rem;
+    text-align: center;
+}
+.btn:hover{
+    background: linear-gradient(15deg, #ffea00, #ff401a);
+}
+a.crearcuenta{
+    color: #9e9e9e;
+}
+a.crearcuenta:hover, label.active{
+    color: white;
+}
+input{
+    color: white;
+    font-size: 20px;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),input[type=password]:not(.browser-default):focus:not([readonly]){
+    box-shadow: 0 1px 0 0 #ff8d0e;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label,input[type=password]:not(.browser-default):focus:not([readonly])+label,label.active {
+    color: #ff8d0e;
+}
+input[type=text]:not(.browser-default){
+    font-size: 24px;
+}
+.btn-large {
+    padding: 0 36px;
+}
+
+/*INICIO ADMIN*************************************************/
+.card.admin{
+    margin: auto;
+    margin-top: 160px;
+}
+.card, .card.admin{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 4%;
+    width: 60%;
+    height: 460px;
+}
+.card.admin img{
+    float: left;
+    width: 22.5%;
+    margin: 33px 0 0 10px;
+}
+.card.admin .card-content{
+    width: 65%;
+    float: right;
+    padding: 0px;
+}
+.card.admin .card-content span{
+    color: #ff8d0e;
+}
+.card.admin span.valor{
+    float: right;
+    color: white;
+}
+.card.admin p.bio{
+    text-align: left;
+    margin-left: 23%;
+    margin-right: 40px
+}
+a.salir{
+    position: absolute;
+    left: 575px;
+    bottom: 63px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+.card.admin h2{
+    margin:-1.5rem 0 0 1.5rem
+}
+.card.admin .infotitulo{
+    font-size: 35px;
+    padding-bottom: 24px;
+    color: #9f9f9f;
+}
+
+.card .horizontal  .sticky-action .admin{
+    padding: 1%;
+    width: 80%;
+    margin-top: 50px;
+}
+i.large {
+    font-size: 13rem;
+}
+
+/*Listado usuarops****************/
+article.col.s12.l6.usuarios{
+    width: 50%;
+    padding: 0 0;
+}
+
+

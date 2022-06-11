@@ -1,0 +1,28 @@
+GUIA ARCHIVOS
+
+-app: Incluirá todos los controladores, modelos y helpers que vayamos creando.
+
+-config: Contiene una serie de ficheros para la configuración de Laravel.
+
+-database: Contendrá archivos de migraciones de la base de datos.
+
+-public: Además del archivo index.php principal por el que pasarán todas las rutas, contiene un archivo .htaccess del que hablaremos más adelante.
+
+-resources: Además de carpetas css y js, incluye una carpeta de lang para personalizar los mensajes según el idioma y la carpeta views, que almacenará todas las vistas del proyecto (la vista welcome.blade.php corresponde a la captura de pantalla de inicio que hemos visto anteriormente).
+
+-routes: Contiene, entro otros, el archivo web.php en el que añadiremos todas las rutas de nuestro proyecto.
+
+-storage: Lo utilizaremos para almacenar imágenes y archivos del proyecto.
+
+-Archivo .env: Configuración de entorno.
+
+-MySql:
+imporante!
+BBDD: 'crash_run'
+Usuario: 'usuariofinal'
+Contraseña: 'Madrid01_'
+
+CREATE DATABASE crash_run CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'usuariofinal'@'localhost' IDENTIFIED BY 'Madrid01_';
+GRANT INSERT,SELECT,UPDATE,DELETE,CREATE,DROP,ALTER ON cms_laravel.* TO 'usuariofinal'@'localhost';
+

@@ -1,0 +1,325 @@
+/* LAYOUT *************************************************************************************************************/
+
+
+@font-face {
+    font-family: CCGeekSpeak;
+    src: url(//db.onlinewebfonts.com/c/eca2f6d7a08be97ebbfb8a1c2c2be5e6?family=CCGeekSpeakW00-Regular);
+}
+@font-face {font-family: "CCGeekSpeak W00 Regular";
+    src: url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.eot");
+    src: url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.eot?#iefix") format("embedded-opentype"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.woff2") format("woff2"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.woff") format("woff"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.ttf") format("truetype"),
+    url("fonts/@font-face/eca2f6d7a08be97ebbfb8a1c2c2be5e6.svg#CCGeekSpeak W00 Regular") format("svg");
+}
+html,button{
+    color: #333;
+    font-family:"CCGeekSpeak W00 Regular" !important;
+    text-transform: uppercase;
+    font-family: "CCGeekSpeak", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 26px;
+    letter-spacing: 0.43px;
+    text-shadow: #000000 -2px 3px 0px, #000000 -1px -1px 0px, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 1px 1px 0px;
+    background-image: url(http://35.181.8.108/2Eva/proyecto_final_dam-daw/public/img/fondo.png);
+    background-size: 125%;
+    background-position-y: -490px;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.left{
+    margin-left: 300px;
+}
+nav{
+    background: linear-gradient(to bottom,#024488,#08244c);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 0 1rem;
+    float: left;
+    height: 100px;
+}
+.navderecha{
+
+}
+a.jugar, a.acceder{
+    float: right;
+    padding-top: 20px;
+    margin-right: 50px;
+    font-size: 1.15rem;
+    width: 215px;
+    background-position-y: 25px;
+    text-align: center;
+}
+a.jugar, a.acceder, a.jugargratis{
+    background-image: url(http://35.181.8.108/2Eva/proyecto_final_dam-daw/public/img/btAceder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a.acceder{
+    filter: hue-rotate(275deg)
+}
+span.run{
+    margin-left: -175px;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 1.75rem;
+}
+
+nav ul a {
+    font-size: 1.25rem;
+}
+
+ul {
+    padding-top: 1rem;
+}
+.logo img{
+    width: 280px;
+    height: 140px;
+}
+img.logotxt{
+    position: absolute;
+    left: 25px;
+    width: 220px;
+    height: 90px;
+    top: 10px;
+}
+
+main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    background-size: 1920px 1297px;
+    background-repeat: no-repeat;
+    background-position-y: -190px;
+}
+
+footer{
+    background: linear-gradient(to bottom,#034588,#092043);
+    color: white;
+}
+
+svg{
+    width: 100%;
+    height: 50px;
+}
+footer a{
+    color: white;
+}
+
+footer .contenido{
+    margin: 0 360px;
+}
+
+footer img{
+    width: 155px;
+}
+footer p {
+    text-transform: none;
+    font-family: Arial;
+    font-size: 13px;
+    text-align: justify;
+}
+/* tabla *************************************************************************************************************/
+th{
+    color: #ee6f0d;
+}
+
+/* LAYOUT *************************************************************************************************************/
+
+
+
+
+/* SECTION ************************************************************************************************************/
+
+section h3{
+    font-size: 1.5rem;
+    padding-bottom: 0.3rem;
+    font-weight:bold;
+}
+
+section h3 a{
+    color: #333;
+}
+
+section h3 span{
+    font-weight:normal;
+    color: #444;
+}
+
+article h4{
+    font-size: 1.5rem;
+}
+
+article .card-info{
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+}
+
+.card.horizontal.small .card-image{
+    max-height: 70%;
+}
+
+.card.horizontal.small .card-image img{
+    margin-top: 20%;
+}
+
+.card.horizontal.noticia{
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+
+}
+
+/*INICIO***********************************/
+section.cabecera{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 725px;
+}
+.video{
+    margin-top: -40px;
+    margin-left: 225px;
+    margin-right: auto;
+    position: absolute;
+}
+.jugarya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 550px;
+}
+a.jugargratis{
+    width: 250px;
+    height: 100px;
+    padding-top: 17px;
+    font-size: 25px;
+    color: white;
+}
+
+button.btjugar{
+    background-image: url(http://35.181.8.108/2Eva/proyecto_final_dam-daw/public/img/btAceder.png);
+    border: none;
+    width: 314px;
+    height: 84px;
+    background-size: cover;
+    background-color: transparent;
+    font-size: 25px;
+    background-position-y: initial;
+    cursor: pointer;
+}
+.card-panel.teal{
+    width: 66.5%;
+    height: 40%;
+    left: 16.75%;
+    top: 29%;
+    position: absolute;
+    visibility: hidden;
+    background-color: #133b8a !important;
+    border-bottom: 5px Solid #2b2b2c;
+    border-top: 5px Solid #0081cc;
+    padding: 9px;
+}
+.cerrar{
+    position: absolute;
+    left: 93.5%;
+    background-color: transparent;
+    border: 1px Solid black;
+    cursor: pointer;
+}
+.cerrar i {
+    width: 60px;
+    height: 60px;
+    padding-top: 17px;
+    font-size: 30px;
+}
+.botones{
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.bt1,.bt2{
+    background-image: url(http://35.181.8.108/2Eva/proyecto_final_dam-daw/public/img/btAceder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 142px;
+}
+
+
+/*INICIO*******************************************/
+
+
+/* PAGINADOR *************************************/
+
+.paginado nav{
+    margin-top: 2rem;
+    line-height: normal;
+    width: 10%;
+    float: right;
+    margin-right: 235px;
+    margin-bottom: 10px;
+}
+
+.pagination li{
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.1rem;
+    border: 1px solid rgb(30,30,30);
+    border-radius: unset;
+}
+
+.pagination li a{
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(100,100,100);
+}
+
+.pagination li a:hover{
+    color: rgb(30,30,30);
+    font-weight: bold;
+    background: none;
+}
+
+.pagination li.active{
+    background: rgb(30,30,30);
+    color: #fff;
+}
+
+.pagination li.disabled {
+    border: 1px solid #BBB;
+    color: #BBB;
+}
+
+.pagination li.active {
+    background-color: rgb(30,30,30);
+    color: #FFF;
+}
+
+table{
+    margin-left: 220px;
+    margin-right: auto;
+    width: 75%;
+}
+
+/* PAGINADOR *************************************/
+
